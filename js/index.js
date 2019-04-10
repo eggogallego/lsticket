@@ -58,7 +58,7 @@ var advanceTo = function(s) {
 var scenario = {
   one: {
     image: "https://www.gstatic.com/webp/gallery/4.sm.jpg", //dog
-    text: "You have finally decided to take your dog out for a walk. You smile and pat your trusty companion's head. What the dog's name?\n",
+    text: "Hey you. Yeah. You! Let's talk bugs and feedback tickets.\n",
   },
   two: {
     image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", //house
