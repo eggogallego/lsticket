@@ -3,24 +3,22 @@
 }
 
 body {
-  height: auto; 
-    width: auto; 
-    max-width: 720px; 
-    max-height: 1000px;
+ background-color: #f4f4f4;
+ font-size: 20px;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
 }
 
 #images {
-  height: 500px;
-  background-size: cover;
-  background-position: center;
-  margin-bottom: 1em;
+  object-fit: cover;  
+   
 }
 
 input {
   width: 100%;
   height: 30px;
   text-align:center;
-  font-size: 15p;
+  font-size: 15px;
   margin-top:15px;
 }
 
@@ -34,6 +32,7 @@ button{
   text-align: center;
   height: 22px;
   font-size: 14px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 button:hover {

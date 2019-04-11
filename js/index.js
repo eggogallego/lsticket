@@ -24,7 +24,7 @@ input.onkeypress = function(event) {
 
 //this changes the text and puts in your characters name
 var changeText = function(words) {
-  text.innerHTML = words.replace("Your name", yername);
+  text.innerHTML = words.replace("NAME", yername);
 };
 
 //this takes the image link and puts it in the proper format, sending it to the html
@@ -57,18 +57,18 @@ var advanceTo = function(s) {
 //scenario = {}
 var scenario = {
   one: {
-    image: "./img/howard1.png",  
+    image: "./img/howard1.jpg",  
     text: "Hey you. Yeah. You! Let's talk bugs and feedback tickets.\n",
   },
   two: {
     image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", 
-    text: "Your name yanks at the leash. You hear dogs barking and see an old abandoned house. Strangely, the door is wide open. What do you want to do?",
-    buttons: [["Turn and run", "advanceTo(scenario.three)"],["Enter The House", "advanceTo(scenario.four)"],["Enter The House", "advanceTo(scenario.four)"]]
+    text: "Well, NAME, let's first check to see if there's already a problem ticket with an existing bug...",
+    buttons: [["I did -- there's nothing.", "advanceTo(scenario.three)"],["I did -- and there's an existing bug!", "advanceTo(scenario.four)"]]
   },
   three: {
     image: "https://1.bp.blogspot.com/-83pWE4JxQxM/ViiOd_7nGTI/AAAAAAAADUg/yCJ8iAB-gMY/s1600/postapoc5.jpg",//"https://s4.postimg.org/t1g20apst/261819008_d4316c1bdf_o.jpg",
-    text: "A wild gang of rabid dogs are gaining on you. Against your better judgement you enter the creepy house for saftey. Your name is whincing and may be injured.",
-    buttons: [["continue", "advanceTo(scenario.four)"]]
+    text: "Well, NAME, in that case let's change the title and fill-out the sidebar. Also, don't forgot to consider using the PX NM BUG macro that Andrew created. He worked really hard on that, you know.",
+    buttons: [["Sure, I guess I can appreciate Andrew.", "advanceTo(scenario.four)"]]
   },
     four: {
     image: "https://s6.postimg.org/kz5m1cnkh/2919478782_c343d14be6_b.jpg",
