@@ -57,11 +57,11 @@ var advanceTo = function(s) {
 //scenario = {}
 var scenario = {
   one: {
-    image: "https://www.gstatic.com/webp/gallery/4.sm.jpg", //dog
+    image: "./img/howard1.png",  
     text: "Hey you. Yeah. You! Let's talk bugs and feedback tickets.\n",
   },
   two: {
-    image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", //house
+    image: "https://s9.postimg.org/9p8m7v1u7/6899639786_d517c4cce3_z.jpg", 
     text: "Your name yanks at the leash. You hear dogs barking and see an old abandoned house. Strangely, the door is wide open. What do you want to do?",
     buttons: [["Turn and run", "advanceTo(scenario.three)"],["Enter The House", "advanceTo(scenario.four)"],["Enter The House", "advanceTo(scenario.four)"]]
   },

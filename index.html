@@ -1,40 +1,38 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>Bug & Feedback Tickets</title>
-  
-  
-  
-      <link rel="stylesheet" href="css/style.css">
-
-  
+    <meta charset="UTF-8">
+    <title>Bug & Feedback Tickets</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+<script>
+function refreshPage(){
+    window.location.reload();
+} 
+</script>
 
 <body>
+    
+    <html>
+    <body>
+        <div id="images">
+        </div>
 
-  <html>
+        <div id="text">
+        </div>
 
-  <body>
-    <div id="images">
-    </div>
-    <div id="text">
-    </div>
+        <input id="input" onkeydown='submitDogName(this)' placeholder='Type Name Here then Press Enter'>
+        
+        
+        <div id="buttonBox">
+        </div>
 
-    <input id="input" onkeydown='submitDogName(this)' placeholder='Enter Your Name'>
-    <div id="buttonBox">
-    </div>
-   
-  </body>
+    </body>
+    </html>
 
-</html>
-  
-  
-
-    <script  src="js/index.js"></script>
-
-
+    <script src="js/index.js"></script>
+    <button type="submit"  onClick="refreshPage()">Start Over</button>
 
 
 </body>
